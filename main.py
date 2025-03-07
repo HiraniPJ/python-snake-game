@@ -14,7 +14,7 @@ pygame.display.set_caption('Snake Game')
 clock = pygame.time.Clock()
 
 def main():
-    sanke = Snake()
+    snake = Snake()
 
     while True:
         for event in pygame.event.get():
