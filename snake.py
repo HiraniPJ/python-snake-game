@@ -17,4 +17,7 @@ class Snake:
         head = self.body[-1]
         new_head = (head[0] + self.direction.x * BLOCK_SIZE, head[1] + self.direction.y * BLOCK_SIZE)
         self.body.append(new_head)
-        self.grow = False        
+        self.grow = False      
+          
+    def grow_snake(self):
+        self.grow = True
