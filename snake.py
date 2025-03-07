@@ -1,5 +1,5 @@
 import pygame
-from constants import GREEN, BLOCK_SIZE
+from constants import GREEN, BLOCK_SIZE, SCREEN_WIDTH, SCREEN_HEIGHT
 
 class Snake:
     def __init__(self):
